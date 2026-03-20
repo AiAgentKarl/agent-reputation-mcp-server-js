@@ -1,0 +1,31 @@
+{
+  "name": "@aiagentkarl/agent-reputation-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for AI agent trust scores, ratings, and reputation tracking",
+  "type": "module",
+  "bin": {
+    "agent-reputation-server": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agent",
+    "reputation",
+    "trust",
+    "ai-agents",
+    "ratings"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiAgentKarl/agent-reputation-mcp-server-js.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
